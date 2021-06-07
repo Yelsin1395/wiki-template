@@ -12,9 +12,9 @@ Primero hay que agregar los siguientes campos al archivo `package.json`:
 
 ```
 
-El campo `name` debe estar encerrado (o scoped) con el scope `@jztechpe`.
-El campo `repository` debe contener el url al proyecto git.
-El campo `publishConfig` debe contener el registry de GHP.
+- El campo `name` debe estar encerrado (o scoped) con el scope `@jztechpe`.
+- El campo `repository` debe contener el url al proyecto git.
+- El campo `publishConfig` debe contener el registry de GHP.
 
 El prerequisito para poder publicar el paquete es haberse uno autenticado hacia el registry.
 
