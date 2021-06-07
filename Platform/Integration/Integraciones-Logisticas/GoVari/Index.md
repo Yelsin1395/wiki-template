@@ -1,0 +1,2 @@
+(Verificar con Pedro si es la versión final, porque lo usó para cambio de estado de la guía)
+[Tablas para integración.pdf](/.attachments/Tablas%20para%20integración-e96ad0ad-155a-4d7d-9467-2fb0e8d919c2.pdf)

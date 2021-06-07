@@ -1,0 +1,345 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2019-11-23 00:02:31",
+    "containerVersion": {
+        "path": "accounts/6000133498/containers/30141724/versions/0",
+        "accountId": "6000133498",
+        "containerId": "30141724",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6000133498/containers/30141724",
+            "accountId": "6000133498",
+            "containerId": "30141724",
+            "name": "jztm-tempate",
+            "publicId": "GTM-MQ63MSH",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1574465432843",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6000133498/containers/30141724/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "tagId": "14",
+                "name": "Tag-GoogleAnalytics",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Id-GoogleAnalytics}}"
+                    }
+                ],
+                "fingerprint": "1574466326232",
+                "firingTriggerId": [
+                    "13",
+                    "11"
+                ],
+                "parentFolderId": "3",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "triggerId": "11",
+                "name": "Trigger-PageView",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "juntoz.com"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "juntoz-staging.com"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1574465834922",
+                "parentFolderId": "3"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "triggerId": "13",
+                "name": "Trigger-PurchaseEvent",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "purchase"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "checkout.juntoz.com/"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1574465904964",
+                "parentFolderId": "3"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "variableId": "4",
+                "name": "Id-GoogleAnalytics",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useEcommerceDataLayer",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-142942969-2"
+                    }
+                ],
+                "fingerprint": "1574466363537",
+                "parentFolderId": "3"
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "folderId": "3",
+                "name": "JuntozTagManager",
+                "fingerprint": "1574465714984"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "CLICK_ELEMENT",
+                "name": "Click Element"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "CLICK_CLASSES",
+                "name": "Click Classes"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "CLICK_ID",
+                "name": "Click ID"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "CLICK_TARGET",
+                "name": "Click Target"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "ERROR_MESSAGE",
+                "name": "Error Message"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "ERROR_URL",
+                "name": "Error URL"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "ERROR_LINE",
+                "name": "Error Line"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "NEW_HISTORY_FRAGMENT",
+                "name": "New History Fragment"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "OLD_HISTORY_FRAGMENT",
+                "name": "Old History Fragment"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "NEW_HISTORY_STATE",
+                "name": "New History State"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "OLD_HISTORY_STATE",
+                "name": "Old History State"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "HISTORY_SOURCE",
+                "name": "History Source"
+            },
+            {
+                "accountId": "6000133498",
+                "containerId": "30141724",
+                "type": "DEBUG_MODE",
+                "name": "Debug Mode"
+            }
+        ],
+        "fingerprint": "1574467351784",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6000133498/containers/30141724/versions/0?apiLink=version"
+    }
+}

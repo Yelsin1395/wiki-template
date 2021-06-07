@@ -1,0 +1,7 @@
+- Estamos retrasados y se acaba el sprint, que harias?
+- Si tienes un cliente que se queja, que haces? Un ejemplo que hayas vivido.
+- Que web o app te parece buena un UX? Que funcionalidades nuevas crearias?
+- Que es la deuda tecnica y que haces con ella?
+- Una buena experiencia con un equipo de desarrollo?
+- Una mala experiencia?
+- Como priorizas el backlog?
