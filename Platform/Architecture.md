@@ -1,1 +1,0 @@
-Esta pagina contendra todo lo relacionado a la arquitectura de la plataforma de Juntoz.

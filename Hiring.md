@@ -1,1 +1,0 @@
-Pagina Central con preguntas y guias para entrevistas para varios puestos de Tech
