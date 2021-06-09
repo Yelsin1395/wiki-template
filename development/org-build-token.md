@@ -7,11 +7,11 @@ Therefore we need to create a Personal Access Token that comes from the org owne
 
 We need the following tokens:
 1. One to read repositories, and to publish a package in GitHub Packages (either being a node package, or a Docker image) = `katlimruiz.org_build_deploy`.
-2. One to pull the Docker images from GitHub Packages = `katlimruiz.org_pull_image`.
+2. One to pull the Docker images from GitHub Packages = `katlimruiz.org_pull_docker`.
 
 And these tokens need to be registered as Organization Secrets, so they can be used in any GitHub Action workflow.
 1. ORG_BUILD_DEPLOY_TOKEN = katlimruiz.org_build_deploy
-2. ORG_PULL_IMAGE = katlimruiz.org_pull_image
+2. ORG_PULL_DOCKER = katlimruiz.org_pull_docker
 
 And in GHA, you can access these secrets by using:
 
