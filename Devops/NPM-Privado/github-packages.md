@@ -45,7 +45,7 @@ Para poder instalar el paquete, se debe crear un archivo `.npmrc` en la raiz del
 Este archivo debe contener el siguiente texto:
 ```
 @jztechpe:registry=https://npm.pkg.github.com
-always-auth=true
+@jztechpe:always-auth=true
 ```
 
 Con este archivo, al hacer `npm install`, npm obtendra los paquetes de ese registry y no de npmjs.com. Sin embargo, dado que los paquetes son privados, seguramente tendras que ya estar autenticado localmente (los pasos estan en la seccion anterior).
