@@ -1,0 +1,7 @@
+PATs para usar github packages
+
+para npm install, npm publish y docker build
+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 org build pat token
+
+para kubernetes deployment container 
+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 pull docker
