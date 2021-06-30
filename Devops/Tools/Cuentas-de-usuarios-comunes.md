@@ -37,3 +37,11 @@ Staging tsdb
 Production tsdb
 - superadmin: tsdbadmin
 - password: bgddgep4mrmpmboc
+
+---
+
+PAT para hacer npm install, npm publish, docker push y docker pull
+
+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 org_build_deploy <<< npm install, npm publish, docker push
+
+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 org_pull_docker <<<< docker pull, instalado como secret dentro de los cluster kubernetes
