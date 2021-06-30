@@ -1,3 +1,5 @@
+# Este archivo es altamente confidencial, no publicar
+
 - user: juntozdevops@outlook.com
 - pass: junt0zd3v0ps
 
