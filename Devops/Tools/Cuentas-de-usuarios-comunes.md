@@ -19,7 +19,7 @@ Este usuario se puede usar como cuenta de test en los ambientes de staging y pro
 - user: techsupportalerter@juntoz.com
 - pass: 12345678
 
-Este usuario es para usarlo como alerta de un email que llegue a techsupport@juntoz.com y que se mueva hacia Slack.
+Este usuario es para usarlo como alerta de un email que llegue a techsupport@juntoz.com y que se mueva hacia Slack. Se usa en zapier.
 
 ---
 
