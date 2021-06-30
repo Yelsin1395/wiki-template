@@ -40,7 +40,7 @@ Production tsdb
 
 ---
 
-PAT para hacer npm install, npm publish, docker push y docker pull
+PAT para hacer npm install, npm publish, docker push y docker pull. Estos fueron creados por la cuenta katlim@ieholding.com
 
 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 org_build_deploy <<< npm install, npm publish, docker push
 
